@@ -8,3 +8,5 @@ There are few issues with this data:
 2. Correlation with other parameters is very high, so we decided to use PCA to reduce the dimensions.
 3. Few of the parameters are in absoulte terms such as Total assets or revnue, and this was creating a problem for model. So we decided to use relative terms such as % of total assets or revenue.
 4. Overall performace for model was not great, so we decided to look into relevant and publicly available data variables other than balancesheets.
+
+(2) The new parameters we are planning to use are: Net NPA, Net interest margin, Loan to assets ration, Return on assests ration, CASA ration, Capital Adequency Ratio. Why this ratios are important is explained in ppt in Additional parameters folder.
