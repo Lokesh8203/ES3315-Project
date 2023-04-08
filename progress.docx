@@ -1,0 +1,10 @@
+(1) First version - After discussion, we finalized to go with only Indian banks. As we have few listed banks in India which went bankrupt in past, we can get a decent classifier for our data.
+
+We used balancesheets for Indian banks, we got from screener.in.
+It has 10 parameters - Share Capital, Reserves, Borrowings, Other Liabilities, Total Liabilities, Fixed Assets, CWIP, Investments, Other Assets, Total Assets. 
+
+There are few issues with this data:
+1. This was yearly data, as one year is preety long time and a we might miss the correct timings for prediction, we decided to use quarterly data for next time.
+2. Correlation with other parameters is very high, so we decided to use PCA to reduce the dimensions.
+3. Few of the parameters are in absoulte terms such as Total assets or revnue, and this was creating a problem for model. So we decided to use relative terms such as % of total assets or revenue.
+4. Overall performace for model was not great, so we decided to look into relevant and publicly available data variables other than balancesheets.
