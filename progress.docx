@@ -11,3 +11,4 @@ There are few issues with this data:
 
 (2) The new parameters we are planning to use are: Net NPA, Net interest margin, Loan to assets ration, Return on assests ration, CASA ration, Capital Adequency Ratio. Why this ratios are important is explained in ppt in Additional parameters folder.
 
+(3) As of now, in folder Banks>>Financials we has financial data including balancesheets, fundamental ratios, yearly results and pnl results scraped from moneycontrol website. We need to work on data refining - Reducing reductant rows and identifying highly correlated rows 
