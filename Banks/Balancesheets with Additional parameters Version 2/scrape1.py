@@ -3,9 +3,9 @@ import csv
 import os
 from bs4 import BeautifulSoup
 
-stock_symbols = ['HDFCBANK', 'ICICIBANK', 'KOTAKBANK', 'AXISBANK', 'INDUSINDBK', 'BANKBARODA', 'BANKINDIA', 'IDBI', 'IDFCFIRSTB', 'PNB', 'RBLBANK', 'SBIN', 'YESBANK', 'BANDHANBNK', 'CANBK', 'FEDERALBNK']
+stock_symbols = ['HDFCBANK', 'ICICIBANK', 'KOTAKBANK', 'AXISBANK', 'INDUSINDBK', 'BANKBARODA', 'BANKINDIA', 'IDBI', 'IDFCFIRSTB', 'PNB', 'RBLBANK', 'SBIN', 'YESBANK', 'CANBK', 'FEDERALBNK']
 
-#Skipped ['BANDHANBNK', 'CANBK', 'FEDERALBNK']
+#Skipped ['BANDHANBNK']
 #list stock symbols with indexes start from 0
 stock_symbols = list(enumerate(stock_symbols, start=0))
 
